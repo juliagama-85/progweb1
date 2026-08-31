@@ -1,91 +1,67 @@
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body>
-        <h1>Formulario</h1>
-        <form >
-            <fieldset>
-                <legend>Dados Pessoais</legend>
-                <label id="">Nome:</label>
-                <br
-                    <option>Bahia</option>
-                    <option>Pernambuco</option>
-                </select>
-            </fieldset>
-            <fieldset>
-                <legend>Dados Profissionais</legend>
-                <b>Natureza do Cargo:</b>>
-                <input type="text">
-                <br>
-                <label id="">Data de Nascimento:</label>
-                <br>
-                <input type="date">
-                <label id="">Cor Favorita:</label>
-                <input type="color">
-                <br>
-                <label id="">Endereço:</label>
-                <br>
-                <input type="text">
-                <br>
-                <label id="">Bairro:</label>
-                <br>
-                <input type="text">
-                <label id="">Cidade:</label>
-                    <option>Bahia</option>
-                    <option>Pernambuco</option>
-                </select>
-            </fieldset>
-            <fieldset>
-                <legend>Dados Profissionais</legend>
-                <label>Natureza do Cargo:</label>
-                <input type="text">
-                <br>
-                <Label id="">CEP:</Label>
-                <br>
-                <input type="number">
-                <label id="">Estado:</label>
-                <select>
-                    <option>Ceará</option>
-                    <option>Piaui</option>
-                    <option>São Paulo</option>
-                    <option>Pernambuco</option>
-                </select>
-            </fieldset>
-            <fieldset>
-                <legend>Dados Profissionais</legend>
-                <label>Natureza de Cargo</label>
-                <br>
-                <input type="radio" name="cargo">Gerencia
-                <input type="radio" name="cargo">Financeiro
-                <input type="radio" name="cargo">recepção
-                <input type="radio" name="cargo">Administrativo
-                <input type="radio" name="cargo">Juridico
-                <br>
-                <label>Area de Interesse:</label>
-                <br>
-                <input type="checkbox" >Computação
-                <input type="checkbox" >Quimica
-                <input type="checkbox" >Meio Ambiente
-                <input type="checkbox" >Engenharia
-                <input type="checkbox" >Matematica
-                <br>
-                <label>Mais Conteudo:</label>+
-                <br>
-                <textarea></textarea>
-            </fieldset>
-            <button type="submit">Enviar</button>
-            <button type="reset">Limpar</button>
-        </form>
-    </body>
-    <style>
-        textarea{
-                    width: 400px;
-                    height: 200px;
-                }
-        button{
-            width: 80px;
-            height: 50px;
-        }
-            </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1> IFCE </h1>
+    <form>
+        <fieldset>Dados Pessoais
+            <label for="fname"> Nome:</label>
+            <input type="text" id="lname" name="name"><br>
+            <label for="date">Data de Nascimento:</label>
+            <input type="date" id="data de Nascimento">
+            <label for="fname">Endereço:</label>
+            <input type="text" id="name">
+            <label for="fname"> Bairro:</label>
+            <input type="text" id="name">
+            <label for="text">Cidade:</label>
+            <input type="text" id="name">
+            <label for="number">CEP:</label>
+            <input type="number" id="number">
+            <label for="color">Cor Favorita:</label>
+            <input type="color" id="color">
+            <label for="satisfacao">Nivel de Satisfação</label>
+            <input type="range" id="satisfacao" name="satisfacao" min="0" max="100"><br>
+        </fieldset>
+        <br>
+        <fieldset>Dados Pessoais
+            <br>
+            <label for="fname">Natureza de Cargo</label><br>
+            <br>
+            <label for="gerencia"> Gerência</label>
+            <input type="button" id="checkbox">
+            <label for="financeiro"> Financeiro</label>
+            <input type="button" id="checkbox">
+            <label for="recpcao"> Recpção</label>
+            <input type="button" id="checkbox">
+            <label for="administracao"> Administração</label>
+            <input type="button" id="checkbox">
+            <label for="juridico"> Juridíco</label>
+            <input type="button" id="checkbox">
+            <br><br>
+            <label for="lname">Àrea de interesse</label>
+            <br>
+            <label for="computacao">Computação</label>
+            <input type="button" id="checkbox">
+            <label for="quimica">Química</label>
+            <input type="button" id="checkbox">
+            <label for="meioambiente">Meio Ambiente</label>
+            <input type="button" id="checkbox">
+            <label for="engenharia">Engenharia</label>
+            <input type="button" id="checkbox">
+            <label for="matematica">Matemática</label>
+            <input type="button" id="checkbox">
+            <br><br>
+            <label for="lname">Mini Curriculo</label>
+            <br>
+            <textarea name="mini_curriculo" id="mini_curriculo" rows ="5" cols="40"></textarea>
+            <input for="submit" value="Enviar">
+            <input for="delet" value="Limpar">
+        </fieldset>
+    </form>
+</body>
 </html>
+  
